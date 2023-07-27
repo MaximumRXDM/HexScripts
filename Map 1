@@ -547,7 +547,7 @@ end)
 ------ LIBRARY
 local repo = 'https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/'
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
-local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/NovazUwU/SharkHub/main/Theme'))()
+local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/MaximumRXDM/HexScripts/main/Hex%20Theme%20Map%201'))()
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({

@@ -714,7 +714,7 @@ LeftGroupBox2:AddToggle('KillAura', {
 local firing = false -- Variable to track the state
 
 LeftGroupBox2:AddToggle('BypassGKA', {
-    Text = 'Bypass GKA (ARROW) [USE THIS FIRST]',
+    Text = 'Bypass Arrow Global;',
     Default = false,
     Tooltip = 'Bypass GKA',
     Callback = function(state)
@@ -734,7 +734,7 @@ LeftGroupBox2:AddToggle('BypassGKA', {
 local running = false -- Variable to track the state
 
 LeftGroupBox2:AddToggle('GKAarroWW', {
-    Text = 'Global Kill Aura (ARROW) [FAST CAN KICK]',
+    Text = 'Global Kill Aura (ARROW)[Fast]',
     Default = false,
     Tooltip = 'Global Kill Aura (ARROW)',
     Callback = function(state)
@@ -771,7 +771,7 @@ LeftGroupBox2:AddToggle('GKAarroWW', {
 local running = false -- Variable to track the state
 
 LeftGroupBox2:AddToggle('GKAareroWeeW', {
-    Text = 'Global Kill Aura (SAFEST)',
+    Text = 'Global Kill Aura (SAFE)',
     Default = false,
     Tooltip = 'Global Kill Aura (SAFEST)',
     Callback = function(state)
@@ -830,7 +830,7 @@ LeftGroupBox2:AddToggle('GKAareroWeeW', {
 
 
 LeftGroupBox:AddSlider('KASlider', {
-    Text = 'Kill Aura',
+    Text = 'Kill Aura (Farm)',
     Default = 1.25,
     Min = 0.25,
     Max = 5,

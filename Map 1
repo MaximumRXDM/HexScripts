@@ -551,7 +551,7 @@ local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-    Title = 'HexScripts v2 PREMIUM // By Max // MAP 1',
+    Title = 'HexScripts PAID // By Max // MAP 1',
     Center = true,
     AutoShow = true,
 })

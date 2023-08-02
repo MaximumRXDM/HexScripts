@@ -5,7 +5,7 @@ local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-    Title = 'Project Slayers // HexScripts PAID // By Max',
+    Title = 'Project Slayers // HexScripts PAID// By Max',
     Center = true,
     AutoShow = true,
 })
@@ -19,7 +19,7 @@ local Tabs = {
 
 local LeftGroupBox = Tabs.Main:AddLeftGroupbox('          [SPINS]')
 
-LeftGroupBox:AddButton("Created by Max | .gg/fuAMvQdyj3", function()
+LeftGroupBox:AddButton("Created by Max | gg/fuAMvQdyj3", function()
     setclipboard("https://discord.gg/fuAMvQdyj3") 
 end)
 
@@ -63,13 +63,13 @@ local function sendCode(code, waitTime)
 end
 
 LeftGroupBox:AddButton("Auto SPIN CODES", function()
-    sendCode("none", 12)
-    print('No codes available.')
+    sendCode("ThanksForLikes600K", 12)
+
 end)
 
 
 Library:OnUnload(function()
-    print('Unloaded!')it
+    print('Unloaded!')
     Library.Unloaded = true
  end)
  

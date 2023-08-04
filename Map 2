@@ -715,7 +715,7 @@ LeftGroupBox2:AddToggle('KillAura', {
 local firing = false -- Variable to track the state
 
 LeftGroupBox2:AddToggle('BypassGKA', {
-    Text = 'Bypass Arrow Global',
+    Text = 'Bypass Arrow Global;',
     Default = false,
     Tooltip = 'Bypass GKA',
     Callback = function(state)
@@ -730,6 +730,7 @@ LeftGroupBox2:AddToggle('BypassGKA', {
         end
     end
 })
+
 
 local running = false -- Variable to track the state
 
@@ -2625,7 +2626,7 @@ SaveManager:IgnoreThemeSettings()
 
 SaveManager:SetIgnoreIndexes({ 'MenuKeybind' })
 
-ThemeManager:SetFolder('SharkHubv1Linoria')
-SaveManager:SetFolder('SharkHub/ProjectSlayers')
+ThemeManager:SetFolder('HexScripts/Theme')
+SaveManager:SetFolder('HexScripts/Save')
 SaveManager:BuildConfigSection(Tabs['Settings'])
 ThemeManager:ApplyToTab(Tabs['Settings'])

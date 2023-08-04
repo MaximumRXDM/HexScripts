@@ -3857,7 +3857,7 @@ SaveManager:IgnoreThemeSettings()
 
 SaveManager:SetIgnoreIndexes({"MenuKeybind"})
 
-ThemeManager:SetFolder("SharkHubv1Linoria")
-SaveManager:SetFolder("/ProjectSlayers")
-SaveManager:BuildConfigSection(Tabs["Settings"])
-ThemeManager:ApplyToTab(Tabs["Settings"])
+ThemeManager:SetFolder('HexScripts/Theme')
+SaveManager:SetFolder('HexScripts/Save')
+SaveManager:BuildConfigSection(Tabs['Settings'])
+ThemeManager:ApplyToTab(Tabs['Settings'])

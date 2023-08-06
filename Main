@@ -5,7 +5,7 @@ local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-    Title = 'Project Slayers // HexScripts PAID// By Max',
+    Title = 'https://raw.githubusercontent.com/MaximumRXDM/Assets/main/Text',
     Center = true,
     AutoShow = true,
 })
@@ -19,8 +19,8 @@ local Tabs = {
 
 local LeftGroupBox = Tabs.Main:AddLeftGroupbox('          [SPINS]')
 
-LeftGroupBox:AddButton("Created by Max | gg/fuAMvQdyj3", function()
-    setclipboard("https://discord.gg/fuAMvQdyj3") 
+LeftGroupBox:AddButton("https://raw.githubusercontent.com/MaximumRXDM/Assets/main/Discord", function()
+    setclipboard("https://raw.githubusercontent.com/MaximumRXDM/Assets/main/Discord") 
 end)
 
 LeftGroupBox:AddButton("Auto Daily Spin", function()
